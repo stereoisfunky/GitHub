@@ -1,0 +1,417 @@
+/*
+* ----------------------------------------------------------------------------------------
+* -- GLOBAL STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+body {
+    overflow-x: hidden !important;
+    max-width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: relative;
+}
+
+p {
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+html {
+    overflow-x: hidden !important;
+    max-width: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4,
+h5,.h5,
+h6 ,.h6{
+    font-family: 'Gabriela', serif;
+    margin-bottom: 0px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+    color: #578AD6;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+a.activeMenuItem{
+    font-weight: 700;
+    color: #4774B6;
+}
+
+.no-padding {
+    padding: 0
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+h5.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-padding {
+    padding: 90px 0px;
+}
+
+.section-heading {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 60px;
+}
+
+.section-title {
+    color:white;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+.section-title span {
+    color: white;
+}
+.section{
+    padding: 100px 0px;
+}
+
+.bottom-buffer { 
+    margin-bottom:60px; 
+}
+
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
+
+.line-border {
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: 30px auto;
+    background: white; 
+
+}
+
+
+/*------------------------------------
+-- Banner 
+----------------------------------*/
+
+
+.subtitle {
+    color: white;
+}
+
+.banner-content{
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 60px;
+
+}
+
+.banner-img{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 60px;
+
+}
+
+.banner {
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-color: #FFBE06;
+}
+
+
+
+/*------------------------------------
+-- T-shirts 
+--------------------------------*/
+
+#t-shirts{
+    padding-bottom: 100px;
+    background-color:#720F60;
+}
+
+#t-shirts .line-border  {
+    background: #FFBE06 !important; 
+}
+
+#t-shirts img {
+    padding-bottom: 20px;
+
+}
+
+
+
+/*--------------------------
+-- Scope
+----------------------*/
+
+.bg-project-scope {
+    background-color: #25215A;
+}
+
+#project-scope img {
+    padding-bottom: 20px;
+}
+
+#project-scope  ul {
+    padding: 20px 20px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#project-scope ul li{
+    padding: 4px;
+}
+
+#project-scope  .btn{
+    margin-right: 20px;
+}
+
+#project-scope .line-border  {
+    background: #EE3657 !important; 
+}
+
+
+/*--------------------------
+-- OUTRO
+----------------------*/
+
+.bg-write-us {
+    padding-top: 40px;   
+    background-color: #EE3657;
+}
+
+#write-us{
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+#write-us .line-border  {
+    background: #25215A !important; 
+}
+
+#write-us .title {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+/*--------------------------
+-- FOOTER
+----------------------*/
+
+#footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    background-color: white;
+}
+
+#footer a {
+    letter-spacing: 1px;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+#footer p {
+    color: black !important;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+MOBILE XS CSS
+-------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 834px) {
+
+    .logo-footer img{
+        width: 20% !important;
+        padding-bottom: 30px;
+
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    #gallery img{ 
+        height: 18vw;
+    }
+
+    .banner-content{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+    }
+
+    .banner-img{
+    padding-right: 0px;
+    padding-left: 0px;
+
+    }
+}
+
+/* If the screen size is 812px wide or less, hide the element */
+@media (max-width: 812px) {
+
+    .content-padding-faq {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mobile-pad {
+        padding-bottom: 40px;
+    }
+
+    .section-padding {
+        padding: 40px 0px;
+    }
+
+    .banner-area .content-padding {
+        padding-top: 100px;
+        padding-right: 0px;
+        padding-bottom: 50px;
+        padding-left: 0px;
+    }
+
+    .banner-area img {
+        width: 70%;
+    }
+
+    .logo-footer img{
+        width: 30% !important;
+        padding-bottom: 30px;
+
+    }
+    .footer-link {
+        text-align: center !important;
+        padding-bottom: 30px;
+    }
+
+    #gallery img{ 
+        height: 35vw;
+    }
+}
+
+
+
+
+@media (max-width: 360px) {
+
+    .section-title{
+        font-size: 24px !important;
+    }
+
+    .section-apply h5{
+        font-size: 12px;
+    }
+
+    .section-apply p{
+        font-size: 12px;
+    }
+
+    .section-apply i{
+        margin-right:5px;
+    }
+    .carousel-item img {
+         height: 350px;
+     }
+}
